@@ -3,7 +3,7 @@ import "./product.css";
 import Chart from "../../components/chart/Chart"
 import {productData} from "../../dummyData"
 import { Publish } from "@material-ui/icons";
-
+import React from 'react';
 export default function Product() {
   return (
     <div className="product">

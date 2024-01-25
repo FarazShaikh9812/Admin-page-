@@ -1,6 +1,6 @@
 import "./widgetSm.css";
 import { Visibility } from "@material-ui/icons";
-
+import React from 'react';
 export default function WidgetSm() {
   return (
     <div className="widgetSm">

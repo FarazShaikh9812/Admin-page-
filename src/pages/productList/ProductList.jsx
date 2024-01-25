@@ -4,7 +4,7 @@ import { DeleteOutline } from "@material-ui/icons";
 import { productRows } from "../../dummyData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-
+import React from 'react';
 export default function ProductList() {
   const [data, setData] = useState(productRows);
 
